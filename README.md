@@ -27,20 +27,23 @@ An advanced, high-performance asynchronous Telegram bot engineered for vehicle h
 
 </div>
 
-1. Clone the repository and enter the workspace directory:
+1. Clone the repository:
    ```bash
    git clone https://github.com/Hades-db/Carcheck
+   ```
+2. Enter the workspace directory:
+   ```bash
    cd Carcheck
    ```
-2. Deploy the asynchronous software environment:
+3. Deploy the asynchronous software environment:
    ```bash
    pip install -r requirements.txt
    ```
-3. Initialize configuration settings in a root `.env` file:
+4. Initialize configuration settings in a root `.env` file:
    ```env
    TOKEN=YOUR_TELEGRAM_BOT_TOKEN
    ```
-4. Fire up the core application engine:
+5. Fire up the core application engine:
    ```bash
    python main.py
    ```
